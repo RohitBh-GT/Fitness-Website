@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Website</title>
+
+  <link rel="shortcut icon" href="../favicon_2.ico" type="image/x-icon">
+   
+  <!-- Font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script
+    type="text/javascript"> (function () { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+  <!-- bootstrap cdn  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+
+  <!-- Out own CSS Files  -->
+  <link rel="stylesheet" href="../CSS Files/bmi.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <section id="navigationbar">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-theme sticky-top">
+      <div class="container-fluid">
+        <img class="title-logo" src="../fitness-removebg-preview.png" alt="Fitness">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><em>Home</em></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><em>Check BMI</em></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><em>My Diet</em></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><em>My Exercise Plan</em></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><em>About Us</em></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><em>My Profile</em></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- BMI checker -->
+  <section id="bmiChecker">
+    <h2 class="bmi">Check Your BMI</h2>
+    <hr width="10%" noshade>
+
+    <div class="main-box row">
+
+      <div class="bmi-box col-lg-5 col-md-5 col-sm-10">
+        <div class="height">
+          <label for="height">Height</label>
+          <input type="text" name="height" id="height" placeholder="Enter your height"> cm
+        </div>
+        <div class="weight">
+          <label for="weight">Weight</label>
+          <input type="text" name="weight" id="weight" placeholder="Enter your weight"> kg
+        </div>
+        <button class="check-bmi-btn">Calculate BMI</button>
+
+        <h5 class="scoreText makeInvisible">Your BMI Score:</h5>
+        <h5 class="score makeInvisible">24</h5>
+      </div>
+
+      <div class="bmi-table col-lg-5 col-md-5 col-sm-10">
+        <p class='tBMI'><strong><em>This table will help you to tell the category according to your BMI.</em></strong></p>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>BMI Range</th>
+          </tr>
+
+          <tr>
+            <td>Underweight</td>
+            <td>
+              < 18.5 </td>
+          </tr>
+
+          <tr>
+            <td>Normal</td>
+            <td>18.5 - 25</td>
+          </tr>
+
+          <tr>
+            <td>Overweight</td>
+            <td>25 - 30</td>
+          </tr>
+
+          <tr>
+            <td>Obese</td>
+            <td>30 - 35</td>
+          </tr>
+
+          <tr>
+            <td>Extreme Obese</td>
+            <td> > 35</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+
+    <h2 class="resultTitle makeInvisible">Result</h2>
+    <div class="resultImage makeInvisible">
+      <img src="" class="makeInvisible">
+
+      <div class="result-box makeInvisible">
+      <h3 class="bmi-result-category">You are Overweight!</h3>
+      <p class="para"></p>
+      <button class="getDietPlans">Get Diet plans<i class="fas fa-arrow-right"></i></button>  
+      </div> 
+    </div> 
+
+  </section>
+
+  <footer></footer>
+
+
+  <script src="../Javascript Files/bmi.js" charset="UTF-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
