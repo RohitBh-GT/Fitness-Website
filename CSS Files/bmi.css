@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --disp: none;
+}
+
+/* Navigation Section  */
+.navbar{
+    padding: 0;
+}
+.logo-brand{
+    color: #f31f31;
+    font-family: Helvetica, sans-serif, cursive;
+    font-weight: bold;
+    font-size: 3.2rem;
+    transform: rotate(-10deg);
+}
+
+.nav-link{
+   color: white !important;
+   font-size: 1.6rem;
+   font-weight: 300;
+   font-family: 'Vollkorn', serif;
+}
+
+.navbar-nav{
+    margin-right: 1.1rem;
+}
+
+.nav-link:hover{
+    color: rgb(247, 247, 150) !important;
+}
+
+#navigation-bar{
+   color: white;
+}
+
+.title-logo{
+    width: 10%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-theme{
+    background-color: #1da6f0;
+}
+
+.active{
+    color: yellow !important;
+    border-bottom: 2px solid yellow;
+}
+
+.nav-item{
+    color: white !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.8rem;
+    margin-bottom: 0px;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+h2{
+    font-weight: bold;
+}
+
+
+/* bmi checker */
+#bmiChecker{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Vollkorn';
+    font-size: 1.8rem;
+    background-color: #acd5eb;
+}
+
+.main-box{
+    margin-bottom: 2rem;
+}
+
+.bmi-box{
+    margin: 2rem;
+    padding-top: 2rem;
+    border: 2px solid black;
+    background-color: rgb(248, 132, 90);
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+}
+
+input{
+    width: 18rem;
+}
+
+.check-bmi-btn{
+    border-right: 3px solid black;
+    background-color: rgb(28, 245, 234);
+    font-weight: bold;
+    margin-top: 1.2rem;
+    padding-right: 1rem;
+    border-radius: 4rem;
+}
+
+.check-bmi-btn:hover{
+    background-color: #1da6f0;
+}
+
+.makeInvisible{
+    display: var(--disp);
+}
+
+h5{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weight{
+    padding-right: 0.8rem;
+}
+
+.bmi-table{
+    padding-left: 11rem;
+    padding-top: 1rem;
+}
+
+tr{
+    border: 2px solid black; 
+}
+td{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+th{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.resultImage{
+    display: flex;
+    height: 30%;
+}
+
+.resultImage img{
+    width: 40%;]
+}
+
+.result-box{
+    margin-left: 11rem;
+    margin-top: 8rem;
+    width: 40%;
+}
+
+.bmi-result-category{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.para{
+    color: rgb(5, 65, 9);
+}
+
+.getDietPlans{
+    border: 4px solid black;
+    border-radius: 3rem;
+    background-color: rgb(245, 245, 32);
+}
+
+.getDietPlans:hover{
+    background-color: yellowgreen;
+}
