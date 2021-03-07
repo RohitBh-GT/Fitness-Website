@@ -38,21 +38,21 @@ function calculateBmi(){
 
    if(bmi<18.5){ 
       tableRows[1].classList.add('selected');
-      image.setAttribute("src","../underweight.png");
+      image.setAttribute("src","../images/underweight.png");
       bmiResultCategory.textContent='You are Underweight';
       para.textContent='Increase your weight with our perfect diet by signing in on our website and remain fit.'; 
       bmiChecker.style.background='#7bc1d1'; 
    }
    else if(bmi>=18.5 && bmi<=25){
     tableRows[2].classList.add('selected');
-    image.setAttribute("src","../normal.png");
+    image.setAttribute("src","../images/normal.png");
     bmiResultCategory.textContent='You are Normal';
     para.textContent='Maintain your weight and eat a healthy diet to maintain your body in this range by signing in on our website and remain fit.'; 
     bmiChecker.style.background='#0cf7a8';    
    }
    else if(bmi>25&&bmi<=30){
     tableRows[3].classList.add('selected');
-    image.setAttribute("src","../overweight.png");
+    image.setAttribute("src","../images/overweight.png");
     bmiResultCategory.textContent='You are Overweight';
     para.textContent='You need to decrease your weight. You are too short to have a normal BMI.'+
                           'So sign in on our website and remain fit.'; 
@@ -60,14 +60,14 @@ function calculateBmi(){
    }
    else if(bmi>30 && bmi<=35){
     tableRows[4].classList.add('selected');
-    image.setAttribute("src","../obese.png");
+    image.setAttribute("src","../images/obese.png");
     bmiResultCategory.textContent='You are Obese';
     para.textContent='Being obese is a serious issue and bring with it serious health problems. So in order to remain fit and decrease your weight, Sign in on our website and remain fit.'; 
     bmiChecker.style.backgroundColor='#f7ad4d';
    }
    else if(bmi>35){
     tableRows[5].classList.add('selected');
-    image.setAttribute("src","../extreme-obesity.png");
+    image.setAttribute("src","../images/extreme-obesity.png");
     bmiResultCategory.textContent='You are Extreme Obese';
     para.textContent='Too high BMI, its a serious cause and can lead to many health problems. So Sign in to our website and choose expert level exercise plan and reduce your weight.'; 
     bmiChecker.style.backgroundColor='#d40000';
