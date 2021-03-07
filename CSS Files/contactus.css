@@ -191,12 +191,12 @@ body, button, input {
   color: rgb(255, 255, 255);
 }
 
-.app-contact i {
+.app-contact a i {
     cursor: pointer;
     color: black;
 }
 
-.app-contact i:hover  {
+.app-contact a i:hover  {
     color: white;
 }
 
@@ -297,6 +297,7 @@ footer{
     padding-top: 2.5rem;
     padding-bottom: 1rem;
     font-family: 'Vollkorn';
+    font-weight: normal;
   }
   
   .footer-info{
@@ -334,11 +335,16 @@ footer{
   }
   
   .faq-name{
-    padding-right: 1.3rem;
+    width: 70%;  
+    list-style: disc;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    padding-right: 0.2rem;
   }
   
   .contact-us{
-   margin-top: 4rem;
+   margin-top: 6rem;
    border: 3px solid white;
    background-color: red;
    padding: 4px;
@@ -354,18 +360,18 @@ footer{
     border: 3px solid black;
   }
   
-  .icons{
+.icons a i{
     color: white;
     margin-top: 1.8rem;
-  }
-  .icons i{
+}
+.icons a i{
     padding: 0.5rem;
     cursor: pointer;
-  }
-  
-  .icons i:hover{
+}
+
+.icons a i:hover{
     color: rgb(247, 81, 183);
-  }
+}
   
   .copyright{
     color: white;
