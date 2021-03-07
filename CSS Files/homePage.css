@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn';
+}
+
+/* Navigation Section  */
+.navbar{
+    padding: 0;
+}
+.logo-brand{
+    color: #f31f31;
+    font-family: Helvetica, sans-serif, cursive;
+    font-weight: bold;
+    font-size: 3.2rem;
+    transform: rotate(-10deg);
+}
+
+.nav-link{
+   color: white !important;
+   font-size: 1.6rem;
+   font-weight: 300;
+   font-family: 'Vollkorn', serif;
+}
+
+.navbar-nav{
+    margin-right: 1.1rem;
+}
+
+.nav-link:hover{
+    color: rgb(247, 247, 150) !important;
+}
+
+#navigation-bar{
+   color: white;
+}
+
+.title-logo{
+    width: 10%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-theme{
+    background-color: #1da6f0;
+}
+
+.active{
+    color: yellow !important;
+    border-bottom: 2px solid yellow;
+}
+
+.nav-item{
+    color: white !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.8rem;
+    margin-bottom: 0px;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+#intro{
+    background: url('../images/intro.jpg') no-repeat center center/cover;
+    padding: 10rem;
+    text-align: center;
+}
+
+.intro-heading{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.intro-para{
+    color: rgb(255, 251, 4);
+    font-size: 1.3rem;
+    padding: 1.5rem;
+}
+
+
+#bmi-intro{
+    padding: 3rem;
+    text-align: center;
+}
+
+#bmi-intro h2{
+    font-size: 3rem;
+    color: rgb(8, 100, 238);
+    font-weight: bold;
+}
+
+.bmi-img{
+    width: 50%;
+    height: 50%;
+    padding: 1.3rem;
+}
+
+.bmi-head{
+    margin-top: 3.5rem;
+    color: tomato;
+    text-align: center;
+}
+.go-to-bmi{
+    border: 3px solid black;
+    color: black;
+    margin-top: 1.2rem;
+    background-color: yellow;
+    border-radius: 2rem;
+    font-weight: bold;
+    padding: 0.7rem;
+}
+
+.go-to-bmi:hover{
+    background-color: rgb(250, 169, 77);
+}
+
+footer{
+    background-color: #035097;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Vollkorn';
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.footer-info h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+}
+
+.footer-info-name{
+    text-decoration: none;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    text-align: right;
+    padding-right: 0.6rem;
+    border-right: 2px solid white;
+}
+
+.footer-info-name li a{
+    justify-content: right;
+    font-size: 1.2rem;
+    color: rgb(250, 243, 243);
+}
+
+.footer-info-name li a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+.footer-info-name li a:active{
+    color: tomato;
+}
+
+.faq-name{
+    width: 70%;  
+    list-style: disc;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    padding-right: 0.2rem;
+  }
+  
+.contact-us{
+   margin-top: 6rem;
+   border: 3px solid white;
+   background-color: red;
+   padding: 4px;
+   font-weight: bold;
+   font-size: 1.5rem;
+   width: 17rem;
+   color: white;
+}
+.contact-us:hover{
+    color: black;
+    background-color: rgb(235, 188, 101);
+    border: 3px solid black;
+}
+
+.icons a i{
+    color: white;
+    margin-top: 1.8rem;
+}
+.icons a i{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.icons a i:hover{
+    color: rgb(247, 81, 183);
+}
+
+.copyright{
+    color: white;
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
