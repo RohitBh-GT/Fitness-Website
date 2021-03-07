@@ -183,3 +183,86 @@
     width: 340px;
   }
 }
+
+/* footer  */
+footer{
+  background-color: #035097;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  font-family: 'Vollkorn';
+}
+
+.footer-info{
+  text-align: center;
+}
+
+.footer-info h4{
+  font-size: 2rem;
+  font-weight: bold;
+  color: yellow;
+}
+
+.footer-info-name{
+  text-decoration: none;
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  text-align: right;
+  padding-right: 0.6rem;
+  border-right: 2px solid white;
+}
+
+.footer-info-name li a{
+  justify-content: right;
+  font-size: 1.2rem;
+  color: rgb(250, 243, 243);
+}
+
+.footer-info-name li a:hover{
+  color: wheat;
+  text-decoration: none;
+}
+.footer-info-name li a:active{
+  color: tomato;
+}
+
+.faq-name{
+  padding-right: 1.3rem;
+}
+
+.contact-us{
+ margin-top: 4rem;
+ border: 3px solid white;
+ background-color: red;
+ padding: 4px;
+ font-weight: bold;
+ font-size: 1.5rem;
+ width: 17rem;
+ color: white;
+}
+
+.contact-us:hover{
+  color: black;
+  background-color: rgb(235, 188, 101);
+  border: 3px solid black;
+}
+
+.icons{
+  color: white;
+  margin-top: 1.8rem;
+}
+.icons i{
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.icons i:hover{
+  color: rgb(247, 81, 183);
+}
+
+.copyright{
+  color: white;
+  font-size: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
