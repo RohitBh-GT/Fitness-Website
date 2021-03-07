@@ -16,6 +16,10 @@ console.log(typeof(height.value));
 
 
 function calculateBmi(){
+   if(height.value==''|| weight.value==''){
+      return;
+   }
+
   for(var i=1;i<=5;i++){
      if(tableRows[i].classList.contains('selected')){
         tableRows[i].classList.remove('selected');
